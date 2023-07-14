@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="68.738" tests="20" skipped="0" failures="2" errors="0">
-<testcase classname="Check Basic Calculator Page functionality" name="TC001_Application should be able to add for 2 integer correctly - Example #1.1" time="6.664">
+<testsuite name="Cucumber" time="67.169" tests="20" skipped="0" failures="2" errors="0">
+<testcase classname="Check Basic Calculator Page functionality" name="TC001_Application should be able to add for 2 integer correctly - Example #1.1" time="5.702">
 <system-out><![CDATA[
 Given user fetch the details from test data BasicCalculator and 0...........passed
 And user enters the First Number and Second Number..........................passed
@@ -9,7 +9,7 @@ When user click on Calculate................................................pass
 Then user able to verify the actual answer and expected answer given in test data.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Check Basic Calculator Page functionality" name="TC002_Application should be able to subtract 2 integer correctly - Example #1.1" time="3.259">
+<testcase classname="Check Basic Calculator Page functionality" name="TC002_Application should be able to subtract 2 integer correctly - Example #1.1" time="3.197">
 <system-out><![CDATA[
 Given user fetch the details from test data BasicCalculator and 1...........passed
 And user enters the First Number and Second Number..........................passed
@@ -18,7 +18,7 @@ When user click on Calculate................................................pass
 Then user able to verify the actual answer and expected answer given in test data.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Check Basic Calculator Page functionality" name="TC003_Application should be able to multiply for 2 integer correctly - Example #1.1" time="3.269">
+<testcase classname="Check Basic Calculator Page functionality" name="TC003_Application should be able to multiply for 2 integer correctly - Example #1.1" time="3.195">
 <system-out><![CDATA[
 Given user fetch the details from test data BasicCalculator and 2...........passed
 And user enters the First Number and Second Number..........................passed
@@ -27,7 +27,7 @@ When user click on Calculate................................................pass
 Then user able to verify the actual answer and expected answer given in test data.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Check Basic Calculator Page functionality" name="TC004_Application should be able to divide for 2 integer correctly - Example #1.1" time="3.301">
+<testcase classname="Check Basic Calculator Page functionality" name="TC004_Application should be able to divide for 2 integer correctly - Example #1.1" time="3.268">
 <system-out><![CDATA[
 Given user fetch the details from test data BasicCalculator and 3...........passed
 And user enters the First Number and Second Number..........................passed
@@ -36,7 +36,7 @@ When user click on Calculate................................................pass
 Then user able to verify the actual answer and expected answer given in test data.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Check Basic Calculator Page functionality" name="TC005_Application should be able to concatenate 2 integer correctly - Example #1.1" time="3.238">
+<testcase classname="Check Basic Calculator Page functionality" name="TC005_Application should be able to concatenate 2 integer correctly - Example #1.1" time="3.236">
 <system-out><![CDATA[
 Given user fetch the details from test data BasicCalculator and 4...........passed
 And user enters the First Number and Second Number..........................passed
@@ -45,7 +45,7 @@ When user click on Calculate................................................pass
 Then user able to verify the actual answer and expected answer given in test data.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Check Basic Calculator Page functionality" name="TC006_Application should be able to add for 2 float correctly - Example #1.1" time="3.199">
+<testcase classname="Check Basic Calculator Page functionality" name="TC006_Application should be able to add for 2 float correctly - Example #1.1" time="3.147">
 <system-out><![CDATA[
 Given user fetch the details from test data BasicCalculator and 5...........passed
 And user enters the First Number and Second Number..........................passed
@@ -54,7 +54,7 @@ When user click on Calculate................................................pass
 Then user able to verify the actual answer and expected answer given in test data.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Check Basic Calculator Page functionality" name="TC007_Application should be able to subtract for 2 float correctly - Example #1.1" time="3.493">
+<testcase classname="Check Basic Calculator Page functionality" name="TC007_Application should be able to subtract for 2 float correctly - Example #1.1" time="3.414">
 <failure type="java.lang.AssertionError" message="There is a difference between expected and actual. expected [7.06] but found [7.0600000000000005]">
 <![CDATA[java.lang.AssertionError: There is a difference between expected and actual. expected [7.06] but found [7.0600000000000005]
 	at org.testng.Assert.fail(Assert.java:111)
@@ -63,7 +63,7 @@ Then user able to verify the actual answer and expected answer given in test dat
 	at org.testng.Assert.assertEquals(Assert.java:132)
 	at org.testng.Assert.assertEquals(Assert.java:656)
 	at stepsDefinitions.BasicCalculator.user_able_to_verify_the_actual_answer_and_expected_answer_given_in_test_data(BasicCalculator.java:63)
-	at ?.user able to verify the actual answer and expected answer given in test data(file:///D:/eclipse/eclipse-workspace/BasicCalculator/src/test/resources/features/BasicCalculator.feature:74)
+	at ?.user able to verify the actual answer and expected answer given in test data(file:///D:/eclipse/eclipse-workspace/BasicCalculator/src/test/resources/features/BasicCalculator.feature:81)
 ]]>
 </failure>
 <system-out><![CDATA[
@@ -74,7 +74,7 @@ When user click on Calculate................................................pass
 Then user able to verify the actual answer and expected answer given in test data.failed
 ]]></system-out>
 </testcase>
-<testcase classname="Check Basic Calculator Page functionality" name="TC008_Application should be able to multiply for 2 float correctly - Example #1.1" time="3.485">
+<testcase classname="Check Basic Calculator Page functionality" name="TC008_Application should be able to multiply for 2 float correctly - Example #1.1" time="3.785">
 <failure type="java.lang.AssertionError" message="There is a difference between expected and actual. expected [2.42] but found [2.4200000000000004]">
 <![CDATA[java.lang.AssertionError: There is a difference between expected and actual. expected [2.42] but found [2.4200000000000004]
 	at org.testng.Assert.fail(Assert.java:111)
@@ -83,7 +83,7 @@ Then user able to verify the actual answer and expected answer given in test dat
 	at org.testng.Assert.assertEquals(Assert.java:132)
 	at org.testng.Assert.assertEquals(Assert.java:656)
 	at stepsDefinitions.BasicCalculator.user_able_to_verify_the_actual_answer_and_expected_answer_given_in_test_data(BasicCalculator.java:63)
-	at ?.user able to verify the actual answer and expected answer given in test data(file:///D:/eclipse/eclipse-workspace/BasicCalculator/src/test/resources/features/BasicCalculator.feature:85)
+	at ?.user able to verify the actual answer and expected answer given in test data(file:///D:/eclipse/eclipse-workspace/BasicCalculator/src/test/resources/features/BasicCalculator.feature:93)
 ]]>
 </failure>
 <system-out><![CDATA[
@@ -94,7 +94,7 @@ When user click on Calculate................................................pass
 Then user able to verify the actual answer and expected answer given in test data.failed
 ]]></system-out>
 </testcase>
-<testcase classname="Check Basic Calculator Page functionality" name="TC009_Application should be able to divide for 2 float correctly - Example #1.1" time="3.235">
+<testcase classname="Check Basic Calculator Page functionality" name="TC009_Application should be able to divide for 2 float correctly - Example #1.1" time="3.107">
 <system-out><![CDATA[
 Given user fetch the details from test data BasicCalculator and 8...........passed
 And user enters the First Number and Second Number..........................passed
@@ -103,7 +103,7 @@ When user click on Calculate................................................pass
 Then user able to verify the actual answer and expected answer given in test data.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Check Basic Calculator Page functionality" name="TC010_Application should be able to concatenate for 2 float correctly - Example #1.1" time="3.251">
+<testcase classname="Check Basic Calculator Page functionality" name="TC010_Application should be able to concatenate for 2 float correctly - Example #1.1" time="3.149">
 <system-out><![CDATA[
 Given user fetch the details from test data BasicCalculator and 9...........passed
 And user enters the First Number and Second Number..........................passed
@@ -112,7 +112,7 @@ When user click on Calculate................................................pass
 Then user able to verify the actual answer and expected answer given in test data.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Check Basic Calculator Page functionality" name="TC011_Application should be able to add for negative value correctly - Example #1.1" time="3.08">
+<testcase classname="Check Basic Calculator Page functionality" name="TC011_Application should be able to add for negative value correctly - Example #1.1" time="3.142">
 <system-out><![CDATA[
 Given user fetch the details from test data BasicCalculator and 10..........passed
 And user enters the First Number and Second Number..........................passed
@@ -121,7 +121,7 @@ When user click on Calculate................................................pass
 Then user able to verify the actual answer and expected answer given in test data.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Check Basic Calculator Page functionality" name="TC012_Application should be able to subtract for negative value correctly - Example #1.1" time="3.229">
+<testcase classname="Check Basic Calculator Page functionality" name="TC012_Application should be able to subtract for negative value correctly - Example #1.1" time="3.177">
 <system-out><![CDATA[
 Given user fetch the details from test data BasicCalculator and 11..........passed
 And user enters the First Number and Second Number..........................passed
@@ -130,7 +130,7 @@ When user click on Calculate................................................pass
 Then user able to verify the actual answer and expected answer given in test data.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Check Basic Calculator Page functionality" name="TC013_Application should be able to multiply for negative value correctly - Example #1.1" time="3.117">
+<testcase classname="Check Basic Calculator Page functionality" name="TC013_Application should be able to multiply for negative value correctly - Example #1.1" time="3.147">
 <system-out><![CDATA[
 Given user fetch the details from test data BasicCalculator and 12..........passed
 And user enters the First Number and Second Number..........................passed
@@ -139,7 +139,7 @@ When user click on Calculate................................................pass
 Then user able to verify the actual answer and expected answer given in test data.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Check Basic Calculator Page functionality" name="TC014_Application should be able to divide for negative value correctly - Example #1.1" time="3.034">
+<testcase classname="Check Basic Calculator Page functionality" name="TC014_Application should be able to divide for negative value correctly - Example #1.1" time="3.241">
 <system-out><![CDATA[
 Given user fetch the details from test data BasicCalculator and 13..........passed
 And user enters the First Number and Second Number..........................passed
@@ -148,7 +148,7 @@ When user click on Calculate................................................pass
 Then user able to verify the actual answer and expected answer given in test data.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Check Basic Calculator Page functionality" name="TC015_Application should be able to concatenate for negative value correctly - Example #1.1" time="3.317">
+<testcase classname="Check Basic Calculator Page functionality" name="TC015_Application should be able to concatenate for negative value correctly - Example #1.1" time="3.132">
 <system-out><![CDATA[
 Given user fetch the details from test data BasicCalculator and 14..........passed
 And user enters the First Number and Second Number..........................passed
@@ -157,7 +157,7 @@ When user click on Calculate................................................pass
 Then user able to verify the actual answer and expected answer given in test data.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Check Basic Calculator Page functionality" name="TC016_Application should not be able to add 2 string value - Example #1.1" time="3.282">
+<testcase classname="Check Basic Calculator Page functionality" name="TC016_Application should not be able to add 2 string value - Example #1.1" time="3.159">
 <system-out><![CDATA[
 Given user fetch the details from test data BasicCalculator and 15..........passed
 And user enters the First Number and Second Number..........................passed
@@ -166,7 +166,7 @@ When user click on Calculate................................................pass
 Then user able to see error message display.................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Check Basic Calculator Page functionality" name="TC017_Application should not be able to subtract 2 String value - Example #1.1" time="3.303">
+<testcase classname="Check Basic Calculator Page functionality" name="TC017_Application should not be able to subtract 2 String value - Example #1.1" time="3.223">
 <system-out><![CDATA[
 Given user fetch the details from test data BasicCalculator and 16..........passed
 And user enters the First Number and Second Number..........................passed
@@ -175,7 +175,7 @@ When user click on Calculate................................................pass
 Then user able to see error message display.................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Check Basic Calculator Page functionality" name="TC018_Application should not be able to multiply 2 String value - Example #1.1" time="3.178">
+<testcase classname="Check Basic Calculator Page functionality" name="TC018_Application should not be able to multiply 2 String value - Example #1.1" time="3.23">
 <system-out><![CDATA[
 Given user fetch the details from test data BasicCalculator and 17..........passed
 And user enters the First Number and Second Number..........................passed
@@ -184,7 +184,7 @@ When user click on Calculate................................................pass
 Then user able to see error message display.................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Check Basic Calculator Page functionality" name="TC019_Application should not be able to divide 2 String Value - Example #1.1" time="3.307">
+<testcase classname="Check Basic Calculator Page functionality" name="TC019_Application should not be able to divide 2 String Value - Example #1.1" time="3.188">
 <system-out><![CDATA[
 Given user fetch the details from test data BasicCalculator and 18..........passed
 And user enters the First Number and Second Number..........................passed
@@ -193,7 +193,7 @@ When user click on Calculate................................................pass
 Then user able to see error message display.................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Check Basic Calculator Page functionality" name="TC020_Application should be able to concatenate 2 String Value - Example #1.1" time="3.232">
+<testcase classname="Check Basic Calculator Page functionality" name="TC020_Application should be able to concatenate 2 String Value - Example #1.1" time="3.058">
 <system-out><![CDATA[
 Given user fetch the details from test data BasicCalculator and 19..........passed
 And user enters the First Number and Second Number..........................passed
