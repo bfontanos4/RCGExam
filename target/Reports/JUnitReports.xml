@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="24.012" tests="5" skipped="0" failures="0" errors="0">
+<testcase classname="Check Basic Calculator Page functionality" name="TC016_Application should not be able to add 2 string value - Example #1.1" time="6.911">
+<system-out><![CDATA[
+Given user fetch the details from test data BasicCalculator and 15..........passed
+And user enters the First Number and Second Number..........................passed
+And user selects operation..................................................passed
+When user click on Calculate................................................passed
+Then user able to see error message display.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check Basic Calculator Page functionality" name="TC017_Application should not be able to subtract 2 String value - Example #1.1" time="4.215">
+<system-out><![CDATA[
+Given user fetch the details from test data BasicCalculator and 16..........passed
+And user enters the First Number and Second Number..........................passed
+And user selects operation..................................................passed
+When user click on Calculate................................................passed
+Then user able to see error message display.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check Basic Calculator Page functionality" name="TC018_Application should not be able to multiply 2 String value - Example #1.1" time="4.197">
+<system-out><![CDATA[
+Given user fetch the details from test data BasicCalculator and 17..........passed
+And user enters the First Number and Second Number..........................passed
+And user selects operation..................................................passed
+When user click on Calculate................................................passed
+Then user able to see error message display.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check Basic Calculator Page functionality" name="TC019_Application should not be able to divide 2 String Value - Example #1.1" time="4.267">
+<system-out><![CDATA[
+Given user fetch the details from test data BasicCalculator and 18..........passed
+And user enters the First Number and Second Number..........................passed
+And user selects operation..................................................passed
+When user click on Calculate................................................passed
+Then user able to see error message display.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check Basic Calculator Page functionality" name="TC020_Application should be able to concatenate 2 String Value - Example #1.1" time="4.222">
+<system-out><![CDATA[
+Given user fetch the details from test data BasicCalculator and 19..........passed
+And user enters the First Number and Second Number..........................passed
+And user selects operation..................................................passed
+When user click on Calculate................................................passed
+Then user able to verify the actual answer and expected answer given in test data.passed
+]]></system-out>
+</testcase>
+</testsuite>
